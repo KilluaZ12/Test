@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="first_value">first value</string>
+    <string name="second_value">second value</string>
+    <string name="addition">Calculate ( + )</string>
+    <string name="division">Calculate ( / )</string>
+    <string name="result">Result</string>
+</resources>
