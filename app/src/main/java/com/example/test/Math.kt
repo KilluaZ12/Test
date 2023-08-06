@@ -1,4 +1,4 @@
-package com.example.test.main
+package com.example.test
 
 class Math {
 

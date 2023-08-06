@@ -2,6 +2,7 @@ package com.example.test.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.test.Math
 import com.example.test.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             btnCalcAdd.setOnClickListener {
                 textViewResult.text = Math().add(editTextFirstValue.text.toString(),editTextSecondValue.text.toString())
             }
-            btnCalcDivision.setOnClickListener{
+            btnCalcDivide.setOnClickListener{
                 textViewResult.text = Math().divide(editTextFirstValue.text.toString(),editTextSecondValue.text.toString())
             }
         }
